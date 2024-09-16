@@ -10,22 +10,18 @@ enum Gamemode {
 
 main (void){
     Gamemode Mode = Medium;
-    int Mutiplier; 
     switch (Mode)
     {
         case Easy:
-        cout << "GameMode: " << Mode << "\nCausal Playthrough, have a nice time.";
-        Mutiplier = 1;
+        cout << "GameMode: Easy" << "\nCausal Playthrough, have a nice time.\n"  << Mode << " basic";
         break;
 
         case Medium:
-        cout << "GameMode: " << Mode << "\nFun Playthrough, have a fighting time.";
-        Mutiplier = 3;
+        cout << "GameMode: Medium" << "\nFun Playthrough, have a fighting time.\n" << Mode << " more Exp and Gold";
         break;
 
         case Hard:
-        cout << "GameMode: " << Mode << "\nHel* Playthrough, Make sure you retrun alive soldier.";
-        Mutiplier = 15;
+        cout << "GameMode: Hard" << "\nHel* Playthrough, Make sure you retrun alive soldier.\n" << Mode << " more Exp and Gold";
         break;
     }
 
